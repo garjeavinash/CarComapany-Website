@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact.css">
+    <title>Document</title>
+</head>
+<body>
+  <nav class="headbar">
+  <ul>
+    <li><a  class="nav-menu" href="index.html">Home</a></li>
+    <li><a  class="nav-menu" href="about.html">About</a></li>
+    <li><a  class="nav-menu" href="contact.html">Contact</a></li>
+    
+</ul>
+</nav>
+    <div class="container">
+        <div style="text-align:center">
+          <h2>Contact Us</h2>
+          <p>BMW will lead the future mobility society, enriching lives around the world with the safest and most responsible ways of moving people.</p>
+        </div>
+          <div class="column">
+            <form action="connect.php" method="POST">
+              <label for="cname">CAR</label>
+              <input type="text" id="carname" name="carname" placeholder="Car Name..">
+              <label for="mname">MODEL</label>
+              <input type="text" id="modelname" name="modelname" placeholder="Your Model Name..">
+              <label for="type">TYPE</label>
+              <select id="type" name="type">
+                <option value="cedan">Cedan</option>
+                <option value="hatchback-suv">Hatchback-Suv</option>
+                <option value="convertible">Convertible</option>
+              </select>
+              <label for="variant">VARIANT</label>
+              <textarea id="variant" name="variant" placeholder="Petrol/Diesel" style="height:43px"></textarea>
+              <input type="submit" value="Submit">
+            </form>
+          </div>
+        </div>
+      </div>
+</body>
+</html>
